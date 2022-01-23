@@ -1,0 +1,36 @@
+.prodcts{
+    width: 95%;
+    margin : 3rem auto; 
+    position: relative;
+
+}
+.products-display{
+    width: 720px;
+    margin-left: 400px ;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.products-display > * {
+    margin-bottom: 1.5rem;
+}
+/* categories */
+.categoriesPage{
+    width: 95%;
+    margin: 3rem auto;
+
+    position: relative;
+}
+.categories--display{
+    width: 720px;
+    margin-left: 400px ;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.categories--display > * {
+    margin-bottom : 1.5rem
+}
+

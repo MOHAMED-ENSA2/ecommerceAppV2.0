@@ -1,0 +1,6 @@
+{
+    "name" : "Ecommerce website" ,
+    "db" : "mongodb://localhost:27017/ecom" , 
+    "jwtPrivateKey" : "jwtPrivateKey" ,
+    "stripeKey" : "sk_test_51KJf4lE5DRTBwjKuWa2jnrLqsLg6oJ2iZMky0v9PrlFDFo7crhiGsgXF0LQhD8v05TmPTiHOd6bKKnbkv655mGnO00vK70pScQ"
+}

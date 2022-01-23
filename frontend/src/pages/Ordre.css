@@ -1,0 +1,87 @@
+.order--delivery_info{
+    background-color: white;
+    /* height: 320px; */
+    width: 750px;
+    padding: 1.1rem 1.5rem;
+}
+.delivery--form input {
+    font-size: 14px;
+    opacity: .6;
+    padding-left : 10px ;
+    height: 40px;
+    width: 320px;
+    margin-bottom: 18px;
+    outline: none;
+    border: none;
+    border-bottom: 1px  solid black ;
+}
+
+.delivery--form input:focus{
+    opacity: 1;
+}
+
+.delivery--form > div{
+    display: flex ;
+    justify-content: space-between;
+}
+
+.delivery--title{
+    color: rgb(14, 51, 104);
+    font-weight: 700;
+    margin: .5rem .3rem 1.5rem;
+}
+
+.btn-container{
+    width: 120px;
+    margin-top: 1rem;
+    margin-right: 0 ;
+}
+
+.btn_dim{
+    font-size: .9rem;
+    padding: .3rem .7rem ;
+}
+
+/* coupon */
+
+.coupon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.coupon--input{
+    width: 70%;
+    padding: .35rem .7rem;
+    outline: none;
+    background: white;
+    border: 1px solid #C9C9C9;
+    border-radius: 3px;
+}
+
+.coupon--btn{
+    background: white;
+    color: rgb(14, 51, 104);
+    font-weight: 700;
+    width: 20%;
+    cursor: pointer;
+    outline: none;
+    border: .5px solid rgb(14, 51, 104);
+    border-radius: 3px;
+}
+
+
+.summary--card_dim{
+    height: 250px;
+}
+
+/* final price */
+.final_price{
+    margin-top: .8rem;
+    font-size: .85rem;
+    font-weight: 700;
+    width: 45%;
+    color: rgb(14, 51, 104);
+    margin-left: 55%;
+    display: flex;
+    justify-content: space-around;
+}

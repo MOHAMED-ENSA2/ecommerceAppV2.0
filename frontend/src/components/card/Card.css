@@ -1,0 +1,123 @@
+.card{
+    background-color: white;
+    border-radius: 5px;
+    width: 15rem;
+    height: 20rem;
+    padding : 1rem;
+    box-shadow: 4px 3px 5px 0px rgba(0,0,0,0.18);
+    -webkit-box-shadow: 4px 3px 5px 0px rgba(0,0,0,0.18);
+    -moz-box-shadow: 4px 3px 5px 0px rgba(0,0,0,0.18);
+}
+
+.card:hover{
+    cursor: pointer;
+    transition-duration: .5s;
+    transform: scale(0.92);
+}
+
+.title{
+    color: var(--main-color);
+    font-size: 0.9rem;
+    font-weight: 800;
+    margin-bottom: .2rem;
+    line-height: 1.25;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card p{
+    font-size: .6rem;
+    color: rgb(0,0,0,.5);
+    padding-top: 0.2rem;
+    white-space: nowrap;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
+
+.card .prod-pres{
+    width: 100%; 
+}
+
+.card .product_image{
+    display: block;
+    margin : 0 auto ;
+    width:  80%;
+    height: 30%;
+}
+
+.card .quantity{
+    font-size: .5rem;
+    text-align: center;
+    color: var(--main-color);
+    border: .3px solid  rgb(0,0,0,.3);
+    border-radius: 3px;
+    display: inline-block;
+    padding: .25rem;
+}
+
+.card .price-cart{
+    margin-top: 12%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .price{
+    font-weight: bold;
+    color: var(--main-color);
+}
+
+
+
+@media screen and (min-width : 600px){
+    .card{
+        width: 12rem;
+        height: 17rem;
+    }
+}
+@media screen and (min-width : 700px){
+    .card{
+        width: 13rem;
+        height: 18rem;
+    }
+}
+
+
+@media screen and (min-width : 800px){
+    .card{
+        width: 11.5rem;
+        height: 16.5rem;
+    }
+}
+
+@media screen and (min-width : 900px){
+    .card{
+        width: 12.5rem;
+        height: 17.5rem;
+
+    }
+}
+
+@media screen and (min-width : 1024px){
+    .card{
+        width: 11rem;
+        height: 16rem;
+
+    }
+}
+
+@media screen and (min-width : 1100px){
+    .card{
+        width: 12rem;
+        height: 17rem;
+
+    }
+}
+
+@media screen and (min-width : 1200px){
+    .card{
+        width: 13rem;
+        height: 18rem;
+
+    }
+}

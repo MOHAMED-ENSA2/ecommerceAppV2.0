@@ -1,0 +1,17 @@
+.menu{
+    color: white;
+    display: flex;
+    margin-left: -3.5rem;
+}
+
+.menu-item {    
+    color: white;
+    font-size: .9rem;
+    font-weight: 500;
+    margin-right:.8rem;
+    cursor: pointer;
+}
+
+.menu-item:hover{
+    color : var(--secondary-color);
+}

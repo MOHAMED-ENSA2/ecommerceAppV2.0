@@ -1,0 +1,53 @@
+.navbar{
+    color : white ;
+    background-color: #0E5AA7;
+    height: 16vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding : 12px;
+    padding-inline: 2.5%;
+}
+
+
+
+.navbar--searchBar{
+    width: 40%;
+}
+
+.navBar--acountIcon{
+
+}
+.navBar--cart{
+
+}
+
+@media screen and (max-width : 1200px) {
+    .navBar-menu{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width : 800px) {
+    .navBar-menu{
+        display: none;
+    }
+    .navbar--searchBar{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width : 800px) {
+
+    .navbar{
+        padding-inline: 5%;
+    }
+
+    .logo{
+        width: 5rem;
+        height: 3rem;
+    }
+
+}

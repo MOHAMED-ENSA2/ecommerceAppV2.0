@@ -1,0 +1,11 @@
+
+.back{
+    color : rgb(14, 51, 104); 
+    margin: 1rem 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.back > span {
+    margin-left: .3rem;
+}

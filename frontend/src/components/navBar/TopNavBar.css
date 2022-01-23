@@ -1,0 +1,37 @@
+.topNavBar-container{
+    font-family: 'Roboto', sans-serif;
+    color : white;
+    font-size: .8rem;
+    background-color:  #0C4E91 ;
+    height: 6vh;
+    width: 100%;
+    padding-inline: 2.5% ;
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+}
+
+
+.topNavBar-left{
+    display: flex;
+}
+
+.topNavBar-left > div:first-child{
+    margin-right: 1rem;
+}
+
+.topNavBar-right{
+    display: flex;
+}
+
+.topNavBar-right > div:last-child{
+    margin-left: 1rem;
+}
+
+
+@media screen and (max-width : 600px) {
+    .topNavBar-container{
+        font-size: .6rem;
+        padding-inline : 5%;
+    }
+}

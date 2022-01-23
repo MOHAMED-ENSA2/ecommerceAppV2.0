@@ -1,0 +1,92 @@
+:root{
+    --font-color : #575757 ; 
+    --main-color : #1B0759 ; 
+    --secondary-color : #0970e6 ;
+}
+
+/* generic classes */
+
+.secondary-color{
+    color : #0970e6;
+}
+.main-color{
+    color: #1B0759 ;
+}
+
+.search{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    grid-area : "s" ; 
+    display: flex; 
+}
+
+.searchInput{
+    color : var(--font-color) ;
+    width: 85%;
+    margin: 0;
+    border-radius: 5px 0 0 5px;
+    border: 0.2px solid var(--font-color);
+    border-right: none ;
+    padding: 10px;
+    padding-left: 15px;
+    font-size: 15px;
+
+}
+
+
+.searchInput:focus {
+    outline: none;
+}
+
+.searchBtn{
+    width: 15%;
+    border-radius: 0 5px 5px 0 ;
+    border: none;
+    background-color: var(--secondary-color);
+    padding: 10px;
+    font-size: 1rem;
+    color: white;
+    transition: 0.5s;
+}
+
+.searchBtn:hover{
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    border-color: black;
+}
+
+.popularSearch{
+    border: 0.1px solid black ;
+    border-top: none;
+    margin: 0;
+    padding: 0;
+    grid-area : "p" ; 
+    background-color: white;
+}
+
+.popularSearch *{
+    padding: 3px;
+    padding-left: 15px;
+    font-size: 0.8rem;
+    
+}
+.popularSearch .word{
+    padding-top : 6px ;
+    font-weight: 500;
+
+}
+
+.popularSearch li:hover{
+    cursor: pointer;
+    background-color: #F8F9F9 ;
+    
+}
+
+/* 
+@media screen and (max-width : 1000px) {
+    .search{
+        display: none;
+    }
+} */

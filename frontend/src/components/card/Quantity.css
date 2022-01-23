@@ -1,0 +1,14 @@
+.quantity-component{
+    color: var(--secondary-color);
+    
+}
+
+.add-cart{
+    color: var(--secondary-color);
+}
+
+.add-cart:hover{
+    cursor: pointer;
+    transition-duration: .5s;
+    transform: scale(1.5);
+}

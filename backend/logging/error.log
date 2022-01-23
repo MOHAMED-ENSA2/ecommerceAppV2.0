@@ -1,0 +1,119 @@
+{"level":"error","message":"some error"}
+{"level":"error","message":"connect ECONNREFUSED 127.0.0.1:27017","reason":{"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"servers":{},"stale":false,"type":"Unknown"}}
+{"level":"error","message":"connect ECONNREFUSED 127.0.0.1:27017","reason":{"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"servers":{},"stale":false,"type":"Unknown"}}
+{"level":"error","message":"connect ECONNREFUSED 127.0.0.1:27017","reason":{"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"servers":{},"stale":false,"type":"Unknown"}}
+{"level":"error","message":"db error"}
+{"level":"error","message":"connect ECONNREFUSED 127.0.0.1:27017","reason":{"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"servers":{},"stale":false,"type":"Unknown"}}
+{"level":"error","message":"connect ECONNREFUSED 127.0.0.1:27017","reason":{"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"servers":{},"stale":false,"type":"Unknown"}}
+{"level":"error","message":"connect ECONNREFUSED 127.0.0.1:27017","reason":{"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"servers":{},"stale":false,"type":"Unknown"}}
+{"level":"error","message":"Cannot find module './startup/chat'\nRequire stack:\n- C:\\Users\\pc\\Desktop\\EcomApp\\nodeBeckend\\server.js"}
+{"level":"error","message":"Cannot find module './startup/chat'\nRequire stack:\n- C:\\Users\\pc\\Desktop\\EcomApp\\nodeBeckend\\server.js"}
+{"level":"error","message":"room is not defined"}
+{"level":"error","message":"room is not defined"}
+{"level":"error","message":"room is not defined"}
+{"level":"error","message":"room is not defined"}
+{"level":"error","message":"room is not defined"}
+{"level":"error","message":"room is not defined"}
+{"level":"error","message":"room is not defined"}
+{"level":"error","message":"room is not defined"}
+{"level":"error","message":"room is not defined"}
+{"level":"error","message":"room is not defined"}
+{"level":"error","message":"room is not defined"}
+{"level":"error","message":"room is not defined"}
+{"level":"error","message":"room is not defined"}
+{"level":"error","message":"room is not defined"}
+{"level":"error","message":"room is not defined"}
+{"level":"error","message":"room is not defined"}
+{"level":"error","message":"room is not defined"}
+{"level":"error","message":"room is not defined"}
+{"level":"error","message":"room is not defined"}
+{"level":"error","message":"room is not defined"}
+{"level":"error","message":"room is not defined"}
+{"level":"error","message":"room is not defined"}
+{"level":"error","message":"room is not defined"}
+{"level":"error","message":"room is not defined"}
+{"level":"error","message":"Unexpected token ','"}
+{"level":"error","message":"Unexpected token ')'"}
+{"level":"error","message":"Unexpected token '}'"}
+{"level":"error","message":"Unexpected token '}'"}
+{"level":"error","message":"Unexpected token '}'"}
+{"level":"error","message":"Unexpected token '}'"}
+{"level":"error","message":"Unexpected token '}'"}
+{"level":"error","message":"missing ) after argument list"}
+{"level":"error","message":"Unexpected token '}'"}
+{"level":"error","message":"Unexpected token ')'"}
+{"level":"error","message":"Unexpected token '}'"}
+{"level":"error","message":"Unexpected token '}'"}
+{"level":"error","message":"Unexpected identifier"}
+{"level":"error","message":"Unexpected token ')'"}
+{"level":"error","message":"Unexpected token '.'"}
+{"level":"error","message":"Unexpected token ')'"}
+{"level":"error","message":"Unexpected token '}'"}
+{"level":"error","message":"Unexpected token '}'"}
+{"level":"error","message":"Unexpected token '}'"}
+{"level":"error","message":"Unexpected token '}'"}
+{"level":"error","message":"connect ECONNREFUSED 127.0.0.1:27017","reason":{"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"servers":{},"stale":false,"type":"Unknown"}}
+{"level":"error","message":"Unexpected token '}'"}
+{"level":"error","message":"Unexpected token '}'"}
+{"level":"error","message":"Unexpected token '}'"}
+{"level":"error","message":"Unexpected token '}'"}
+{"level":"error","message":"Unexpected token '}'"}
+{"level":"error","message":"Unexpected token '}'"}
+{"level":"error","message":"Unexpected token '}'"}
+{"level":"error","message":"Unexpected token '}'"}
+{"level":"error","message":"Unexpected token ')'"}
+{"level":"error","message":"Cannot read property 'log' of undefined"}
+{"level":"error","message":"Cannot read property 'log' of undefined"}
+{"level":"error","message":"Cannot read property 'log' of undefined"}
+{"level":"error","message":"Unexpected token '}'"}
+{"level":"error","message":"Unexpected token '.'"}
+{"level":"error","message":"Unexpected token '}'"}
+{"level":"error","message":"connect ECONNREFUSED 127.0.0.1:27017","reason":{"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"servers":{},"stale":false,"type":"Unknown"}}
+{"level":"error","message":"Unexpected token '}'"}
+{"level":"error","message":"Unexpected token '}'"}
+{"level":"error","message":"Unexpected token '}'"}
+{"level":"error","message":"Unexpected token '}'"}
+{"level":"error","message":"Unexpected token '}'"}
+{"level":"error","message":"Unexpected token '}'"}
+{"level":"error","message":"Unexpected token '}'"}
+{"level":"error","message":"Unexpected token '}'"}
+{"level":"error","message":"Unexpected token '}'"}
+{"level":"error","message":"Unexpected token '}'"}
+{"level":"error","message":"Unexpected token 'else'"}
+{"level":"error","message":"Unexpected token '}'"}
+{"level":"error","message":"Unexpected token 'else'"}
+{"level":"error","message":"Unexpected token 'else'"}
+{"level":"error","message":"Unexpected token 'else'"}
+{"level":"error","message":"Unexpected token 'else'"}
+{"level":"error","message":"Unexpected token '}'"}
+{"level":"error","message":"missing ) after argument list"}
+{"level":"error","message":"missing ) after argument list"}
+{"level":"error","message":"Unexpected identifier"}
+{"level":"error","message":"cou is not defined"}
+{"level":"error","message":"Unexpected token ')'"}
+{"level":"error","message":"Unexpected token ')'"}
+{"level":"error","message":"Cast to [ObjectId] failed for value \"[ 'Fruits' ]\" (type string) at path \"categories.0\""}
+{"level":"error","message":"Cast to [ObjectId] failed for value \"[ 'Fruits' ]\" (type string) at path \"categories.0\""}
+{"level":"error","message":"Cast to [ObjectId] failed for value \"[ 'Fruits' ]\" (type string) at path \"categories.0\""}
+{"level":"error","message":"require(...) is not a function"}
+{"level":"error","message":"Product validation failed: categories.0: Cast to [ObjectId] failed for value \"[ 'Electronics' ]\" (type string) at path \"categories.0\""}
+{"level":"error","message":"Product validation failed: categories.1: Cast to [ObjectId] failed for value \"[\\n' +\n  '  new ObjectId(\"4d65617426506f756c747279\"),\\n' +\n  \"  'Oil&Ghee',\\n\" +\n  \"  'Herbs&Spices'\\n\" +\n  ']\" (type string) at path \"categories.1\""}
+{"level":"error","message":"Product validation failed: categories.1: Cast to [ObjectId] failed for value \"[\\n' +\n  '  new ObjectId(\"4d65617426506f756c747279\"),\\n' +\n  \"  'Oil&Ghee',\\n\" +\n  \"  'Herbs&Spices'\\n\" +\n  ']\" (type string) at path \"categories.1\""}
+{"level":"error","message":"data and salt arguments required"}
+{"level":"error","message":"DeliveryAddress validation failed: name: Path `name` is required."}
+{"level":"error","message":"DeliveryAddress validation failed: name: Path `name` is required."}
+{"level":"error","message":"DeliveryAddress validation failed: name: Path `name` is required."}
+{"level":"error","message":"DeliveryAddress validation failed: name: Path `name` is required."}
+{"level":"error","message":"DeliveryAddress validation failed: name: Path `name` is required."}
+{"level":"error","message":"DeliveryAddress validation failed: name: Path `name` is required."}
+{"level":"error","message":"DeliveryAddress validation failed: name: Path `name` is required."}
+{"level":"error","message":"DeliveryAddress validation failed: name: Path `name` is required."}
+{"level":"error","message":"DeliveryAddress validation failed: name: Path `name` is required."}
+{"level":"error","message":"DeliveryAddress validation failed: name: Path `name` is required."}
+{"level":"error","message":"DeliveryAddress validation failed: name: Path `name` is required."}
+{"level":"error","message":"DeliveryAddress validation failed: name: Path `name` is required."}
+{"level":"error","message":"DeliveryAddress validation failed: name: Path `name` is required."}
+{"level":"error","message":"Ordre validation failed: deleveryAdress: Cast to ObjectId failed for value \"[ { _id: new ObjectId(\"61eb0637edc188572df8bbbe\") } ]\" (type Array) at path \"deleveryAdress\""}
+{"level":"error","message":"Ordre validation failed: deleveryAdress: Cast to ObjectId failed for value \"[ { _id: new ObjectId(\"61eb0637edc188572df8bbbe\") } ]\" (type Array) at path \"deleveryAdress\""}
+{"level":"error","message":"Ordre validation failed: deleveryAdress: Cast to ObjectId failed for value \"[ { _id: new ObjectId(\"61eb0637edc188572df8bbbe\") } ]\" (type Array) at path \"deleveryAdress\""}
+{"level":"error","message":"Ordre validation failed: cartItems.0: Cast to [ObjectId] failed for value \"[\\n' +\n  '  {\\n' +\n  \"    '$__': InternalCache {\\n\" +\n  '      activePaths: [StateMachine],\\n' +\n  '      ownerDocument: undefined,\\n' +\n  '      isSubDocument: undefined,\\n' +\n  '      fullPath: undefined,\\n' +\n  '      emitter: [EventEmitter],\\n' +\n  '      defaults: true,\\n' +\n  '      strictMode: true,\\n' +\n  '      selected: [Object],\\n' +\n  '      _id: new ObjectId(\"61c733d979fd9d5276d20173\")\\n' +\n  '    },\\n' +\n  \"    '$isNew': false,\\n\" +\n  '    _doc: { _id: new ObjectId(\"61c733d979fd9d5276d20173\") },\\n' +\n  \"    '$init': true\\n\" +\n  '  },\\n' +\n  '  {\\n' +\n  \"    '$__': InternalCache {\\n\" +\n  '      activePaths: [StateMachine],\\n' +\n  '      ownerDocument: undefined,\\n' +\n  '      isSubDocument: undefined,\\n' +\n  '      fullPath: undefined,\\n' +\n  '      emitter: [EventEmitter],\\n' +\n  '      defaults: true,\\n' +\n  '      strictMode: true,\\n' +\n  '      selected: [Object],\\n' +\n  '      _id: new ObjectId(\"61c73c24200e7e70d0189fa8\")\\n' +\n  '    },\\n' +\n  \"    '$isNew': false,\\n\" +\n  '    _doc: { _id: new ObjectId(\"61c73c24200e7e70d0189fa8\") },\\n' +\n  \"    '$init': true\\n\" +\n  '  }\\n' +\n  ']\" (type string) at path \"cartItems.0\""}

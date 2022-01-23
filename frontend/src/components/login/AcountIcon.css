@@ -1,0 +1,22 @@
+
+.acount{
+     cursor: pointer;
+     color: white;
+}
+
+.acount:hover{
+    color : rgb(14, 51, 104); 
+}
+
+.acount-text{
+    font-size: .8rem;
+    margin-left: 5px;
+}
+
+
+@media screen and (max-width : 600px ) {
+    .acount-text{
+        font-size: .6rem;
+    }
+    
+}

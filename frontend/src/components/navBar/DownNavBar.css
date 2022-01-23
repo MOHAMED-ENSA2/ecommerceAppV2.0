@@ -1,0 +1,132 @@
+.downNavBar-container{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 9vh;
+    width: 100%;
+    padding-inline: 2.5%;
+    
+    box-shadow: 3px 6px 8px 3px rgba(222,209,209,0.75);
+    -webkit-box-shadow: 3px 6px 8px 3px rgba(222,209,209,0.75);
+    -moz-box-shadow: 3px 6px 8px 3px rgba(222,209,209,0.75);
+}
+
+.downNavBar--item {
+    color: var(--main-color);
+    margin-right: 1.4rem;
+    cursor: pointer;
+}
+.downNavBar--item:hover{
+    color : var(--secondary-color )
+}
+
+
+
+.downNavBar--searchBar{
+    display: none;
+    width: 60%;
+    margin: 1.3rem auto 0;
+}
+
+/* downNavBar ctg */
+
+.downNavBar--ctg{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;    
+    margin-right: 5.5rem;
+}
+
+.downNavBar--title {
+    color: rgb(27, 7, 89) ;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 3px;
+}
+
+.line-container{
+    cursor: pointer;
+    width: 1.175rem;
+    height: .88rem;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: .6rem;
+}
+
+
+.line{
+    background-color: rgb(27, 7, 89)   ;
+    width: 100%;
+    height: .08rem;
+    transition: transform .5s ease;
+    transform-origin: left;
+}
+.line-1-active{
+    transform: rotate(45deg);
+}
+.line-2-active{
+    opacity: 0;
+}
+.line-3-active{
+    transform: rotate(-45deg);
+
+}
+
+/* sideBar categories */
+.sideBar-ctg{
+    color : rgb(27, 7, 89);
+    width: 14.5rem;
+    background: white;
+    position: absolute;
+    top : 31vh ; 
+    left: -14.5rem;
+    z-index: 1;
+    transition: all .5s ease;
+}
+
+
+.sideBar-ctg-show {
+    left: 0;    
+}
+
+.sideBar-ctg ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.sc-item{
+    color :rgb(27, 7, 89) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: .7rem .9rem .7rem 1.7rem;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.sc-item:hover{
+    background: #C9C9C9;
+}
+
+/* media queries */
+@media screen and (max-width : 800px) {
+    .downNavBar-container {
+        display: none;
+    }
+    .downNavBar--searchBar{
+        display: block;
+        font-size: .5rem;
+    }
+    
+}
+
+
+@media screen and (max-width : 800px) {
+
+    .downNavBar--searchBar{
+        width: 70%;
+    }
+    
+}

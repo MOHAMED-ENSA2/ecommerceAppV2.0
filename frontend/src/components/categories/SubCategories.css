@@ -1,0 +1,76 @@
+.SubCategories-container{
+    width: 95%;
+    margin: 1.8rem auto 0; 
+    
+}
+
+.SubCategories{
+    margin-top : 1.8rem ; 
+    display: grid; 
+    grid-template-areas:  "a a" 
+                          "b c"
+                          "d e" ;
+
+}
+
+.a{
+    grid-area: a;
+    margin-bottom: 1.2rem;
+}
+
+.b{
+    grid-area: b;
+    margin-right: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.c{
+    grid-area: c;
+    margin-bottom: 1.2rem;
+
+}
+
+.d{
+    grid-area: d;
+    margin-right: 1rem;
+
+}
+
+.e{
+    grid-area: e;
+} 
+
+@media screen and (min-width : 700px) {
+    .SubCategories{
+        display: grid; 
+        grid-template-areas:  "a b" 
+                              "a c"
+                              "d e" ;
+    }
+
+    .b , .c, .e{
+        margin-left: 1rem;
+    }
+    .b{
+        margin-right:0;
+
+    }
+    .d{
+        margin-right: 0;
+    }
+}
+
+@media screen and (min-width : 1024px) {
+    .SubCategories{
+        display: grid; 
+        grid-template-areas:  "a b c" 
+                              "a d e"
+    }
+
+    .a{
+        margin-bottom: 0;
+    }
+    .d{
+        margin-left: 1rem;
+    }
+}

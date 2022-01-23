@@ -1,0 +1,71 @@
+.categories-container{
+    width: 95%;
+    margin: 1.8rem auto 1rem auto;
+
+}
+
+.Categories{
+    width: 100%;
+    display: grid; 
+    grid-template-areas : "c1" "c2" 
+                          "c3" "c4" 
+                          "c5" "c6" 
+                          "c7" "c8";
+    text-align: center;
+    margin-top: .8rem;
+}
+
+.Categories > * {
+    margin-bottom: .8rem;
+}
+
+.catg-sec1{
+    grid-area: c1;
+}
+.catg-sec2{
+    grid-area: c2;
+}
+.catg-sec3{
+    grid-area: c3;
+}
+.catg-sec4{
+    grid-area: c4;
+}
+.catg-sec5{
+    grid-area: c5;
+}
+.catg-sec6{
+    grid-area: c6;
+}
+.catg-sec7{
+    grid-area: c7;
+}
+.catg-sec8{
+    grid-area: c8;
+}
+
+
+@media screen and (min-width : 650px) {
+    .Categories{
+        width: 100%;
+        display: grid; 
+        grid-template-areas : "c1 c2" 
+                              "c3 c4" 
+                              "c5 c6" 
+                              "c7 c8";
+    }
+
+} 
+
+@media screen and (min-width : 1150px) {
+    .Categories{
+        width: 100%;
+        display: grid; 
+        grid-template-areas : "c1 c2 c3 c4" 
+                              "c5 c6 c7 c8";
+    }
+    .Categories > * {
+        margin-bottom: 1.2rem;
+    }
+
+} 

@@ -1,0 +1,145 @@
+.product-container{
+    background: white;
+}
+.product{
+    width: 90%; 
+    margin: 0 auto;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 62% 38%;
+    grid-template-areas: "img text"
+                         "lDetalais lDetalais";
+                            
+}
+
+.product--img{
+    height: 350px;
+    grid-area : img ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product--img img {
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+}
+
+.product--img img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.product--text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-inline: 1rem ;
+    grid-area : text ;
+    color: #000;
+    position: sticky;
+    top : 10vh;
+    border : 1px solid #C9C9C9;
+}
+
+
+mark{
+    display:inline;
+    color: tomato;
+    font-weight: bold;
+}
+
+.product--title{
+    color: rgb(14, 90, 167)    ;
+    margin-top: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+.product--details{
+    color: rgb(14, 51, 104)    ;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.product--card{
+    padding-right: .5rem;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.product--prices{
+
+}
+.product--price{
+   
+}
+.product--unitprice{
+    margin-top: .3rem;
+    font-size: .7rem;
+    opacity: .7;
+}
+.product--quantity{
+}
+.product-delivery{
+    color: rgb(14, 51, 104)    ;
+    margin-top: 1rem;
+    font-size: .7rem;
+    font-weight: 500;
+    background-color: #E0E0E0;
+    border-radius: 2px;
+    padding : .3rem 1rem;
+    white-space: nowrap;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
+
+/* large details */
+
+.large-details{
+    grid-area: lDetalais;
+}
+
+.lg-details--title{
+    color: rgb(14, 51, 104) ;
+    font-weight: 500;    
+}
+
+.lg-details--p{
+    opacity: .7;
+    font-weight: 300;
+}
+
+.product--recomnadations{
+    padding: 1rem 1.5rem 1rem 0; 
+}
+
+
+@media screen and (max-width : 800px) {
+    .product{
+        grid-template-columns: 100%;
+        grid-template-areas: "img" 
+                            "text"
+                             "lDetalais" ;
+    }
+    .product--title{
+
+        font-size: 1.3rem;
+    }
+    .product-delivery{
+        font-size: .5rem;
+    }
+    .product--card{
+        padding-right: 0;
+     }
+
+     .product--text{
+        position: static;
+        padding: 1.5rem 1rem;
+    }
+    
+    .product--recomnadations{
+        padding: 1rem 0; 
+    }
+}
