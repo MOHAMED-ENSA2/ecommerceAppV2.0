@@ -69,7 +69,8 @@ function App() {
   return (
       
       <div className="App">
-      
+      <button onClick={methodDoesNotExist}>Break the world</button>;
+
       <Switch>
         <Route exact path = "/">
             <TopNavBar/>
