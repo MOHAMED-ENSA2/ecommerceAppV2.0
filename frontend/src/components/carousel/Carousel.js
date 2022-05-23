@@ -16,8 +16,8 @@ export default function Carousel() {
 
   };
 
-  const styles = { container :  {   width:"90%" , marginInline : "auto" , paddingInline : "2.5%", marginTop : "2rem" , height  : "69vh" }  ,
-                    img :  { objectFit : "fill" , display : "block" , width:"100%" , height  : "55vh" ,cursor : "pointer" }
+  const styles = { container :  {   width:"95%"  , height  : "300px" , paddingInline : "2.5%", margin : "2rem auto 3rem"}  ,
+                    img :  { objectFit : "fill" , display : "block" , width:"100%" , height  : "300px" ,cursor : "pointer" }
                     }
 
 return (

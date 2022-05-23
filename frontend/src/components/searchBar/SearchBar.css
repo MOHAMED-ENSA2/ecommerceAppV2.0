@@ -23,7 +23,7 @@
 
 .searchInput{
     color : var(--font-color) ;
-    width: 85%;
+    width: 90%;
     margin: 0;
     border-radius: 5px 0 0 5px;
     border: 0.2px solid var(--font-color);
@@ -40,13 +40,12 @@
 }
 
 .searchBtn{
-    width: 15%;
-    border-radius: 0 5px 5px 0 ;
-    border: none;
-    background-color: var(--secondary-color);
-    padding: 10px;
-    font-size: 1rem;
     color: white;
+    background-color: var(--secondary-color);
+    font-size: 1rem;
+    width: 10%;
+    border: none;
+    border-radius: 0 5px 5px 0 ;
     transition: 0.5s;
 }
 

@@ -2,39 +2,42 @@
 
 .cart{
     color : white ;
-    width: 4.5rem;
+
+    font-size: .9rem;
+    font-weight: 700;
+    
+    width: 4.6rem;
     height: 2rem;
-    border: 1px solid white;
-    padding: .4rem;
+    padding: .4rem .4rem;
+    border: 1.3px solid white;
     border-radius: 15px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    cursor: pointer;
 }
 
 .cart:hover{
-    cursor: pointer;
-    border-color: var(--secondary-color);
-    color: var(--secondary-color);
+    color : rgb(14, 51, 104); 
+    border-color:  rgb(14, 51, 104); 
 }
 
-.cart > span {
-    font-size: .9rem;
-}
 
 .cart-icon{
     position : relative ;
 }
 
 .cartQuantity{
-    position: absolute;
+    background-color: red;
+    font-size: .6rem;
+    
+    height : 12px ; 
+    width: 12px; 
     top : -0.4rem;
     right : -0.4rem;
-    font-size: .6rem;
-    width: .75rem; 
-    height : .75rem ; 
-    background-color: red;
     border-radius: 50%;
+
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;

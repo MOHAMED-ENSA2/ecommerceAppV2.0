@@ -11,11 +11,15 @@ function Navbar() {
 
     return (
         <div className = "navbar">
-            <Logo/>
-            <div className="navbar--searchBar"><SearchBar/></div>
-            <div className="navBar-menu"><Menu/></div>
-            <div className="navBar--acountIcon"><AcountIcon/></div>
-            <div className="navBar--cart"><Cart/></div>
+            <div className='navbar--right'>
+                <Logo/>
+            </div>
+            <div className='navbar--left'>
+                <div className="navbar--searchBar"><SearchBar/></div>
+                {/* <div className="navBar-menu"><Menu/></div> */}
+                <div className="navBar--acountIcon"><AcountIcon/></div>
+                <div className="navBar--cart"><Cart/></div>
+            </div>
         </div>
     )
 }

@@ -8,7 +8,7 @@ function Cart() {
     return (
         <Link to = "/cart">
             <div  className = "cart">
-                <i class="cart-icon fas fa-shopping-cart">
+                <i class="cart-icon fas fa-shopping-cart fa-sm">
                 {
                     cartItems.length > 0 && 
                     <div className = 'cartQuantity'>{cartItems.length}</div> 

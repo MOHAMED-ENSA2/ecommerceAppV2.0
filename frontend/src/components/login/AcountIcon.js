@@ -1,10 +1,11 @@
 import React, {useState, useEffect} from 'react'
+import { useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
 
 import "./AcountIcon.css"
 
 function AcountIcon() {
-
+    const {user} = useSelector(state => state.currentUser)
     const [isAuthentificated, setIsAuthentificated] = useState(false)
 
     useEffect(() => {
@@ -14,19 +15,23 @@ function AcountIcon() {
     }, [])
 
     return (
-    
-        <div>
-                {!isAuthentificated 
-                ?   <Link  className = "acount" to = '/login'>
-                        <i className="acountIcon fas fa-user fa-lg"></i>  
-                        <span className='acount-text' >Login & register</span>
-                    </Link>
-                :   <Link  className = "acount" to = '/logout'>
-                        <i className="acountIcon fas fa-user fa-lg"></i>  
-                        <span className='acount-text' >Logout</span>
-                    </Link>
-                }        
+        <div className='acount'>
+            <Link  className = {(user && user.isAdmin) ?  "AcountIcon AcountIcon_logout" : "AcountIcon" } to = {isAuthentificated ? '/logout' : '/login' } >
+                <i className="acountIcon fas fa-user fa-sm"></i>
+                {
+                    !isAuthentificated 
+                    ? <span className='acount-text' >SIN IN</span>
+                    : <span className='acount-text' >LOGOUT</span>
+                }  
+            </Link>
+            {
+                user && user.isAdmin &&  
+                <Link  className = "AcountIcon AcountIcon_admin" to = "/admin" >
+                    <span className='acount-text acount-text_admin' >ADMIN BOARD</span>
+                </Link>
+            }
         </div>
+
     )
 }
 

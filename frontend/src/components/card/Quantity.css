@@ -1,5 +1,7 @@
 .quantity-component{
     color: var(--secondary-color);
+
+    white-space: nowrap;
     
 }
 

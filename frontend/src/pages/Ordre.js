@@ -120,15 +120,15 @@ function Ordre() {
                         <div className='delivery--title'>
                             DELIVERY ADRESS
                         </div>
-                        <div>
+                        <div className='delivery--info'>
                             <input type="text" placeholder='Full name' name = 'fullName' onChange={e => handleChange(e)} />
                             <input type="text" placeholder='Phone' name = "phone"  onChange={e => handleChange(e)}/>
                         </div>
-                        <div>
+                        <div className='delivery--info'>
                             <input type="text" placeholder='Adress' name = 'address'  onChange={e => handleChange(e)}/>
                             <input type="text" placeholder='Region' name = "region"  onChange={e => handleChange(e)}/>
                         </div>
-                        <div>
+                        <div className='delivery--info'>
                             <input type="text" placeholder='City' name = 'city'  onChange={e => handleChange(e)}/>
                             <input type="text" placeholder='Zip code' name = "zipCode" onChange={e => handleChange(e)} />
                         </div>
@@ -156,7 +156,7 @@ function Ordre() {
                     <h3 className = 'summary--title'>
                         ORDER SUMMARY
                     </h3>
-                    <div className='summary--card summary--card_dim'>
+                    <div className='summary--card summary--card_ordre'>
                         <div className='coupon'>
                             <input className='coupon--input' type="text" placeholder='Enter a coupon code' name = 'coupon' />
                             <button className='coupon--btn'>

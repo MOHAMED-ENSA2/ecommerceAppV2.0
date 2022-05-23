@@ -4,7 +4,7 @@
     background-color:white ;
     
     width: 90%;
-    margin: 3rem auto;
+    margin: 2rem auto;
     padding: 2rem;
     border-radius: 5px;
     
@@ -36,9 +36,7 @@
 .login--title{
     color : var(--main-color) ;
     font-size: 20px;
-    margin-top: 10px ;
-    padding-left : 10px ;
-
+    margin-top: 20px ;
 }
 
 

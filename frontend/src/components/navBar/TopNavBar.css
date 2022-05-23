@@ -1,9 +1,8 @@
 .topNavBar-container{
-    font-family: 'Roboto', sans-serif;
     color : white;
     font-size: .8rem;
     background-color:  #0C4E91 ;
-    height: 6vh;
+    height: 30px;
     width: 100%;
     padding-inline: 2.5% ;
     display: flex;
@@ -31,7 +30,7 @@
 
 @media screen and (max-width : 600px) {
     .topNavBar-container{
-        font-size: .6rem;
-        padding-inline : 5%;
+        font-size: .65rem;
+        /* padding-inline : 5%; */
     }
 }

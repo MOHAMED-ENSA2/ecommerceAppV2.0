@@ -1,5 +1,5 @@
 {
-     "endpoint" : "https://ecomerce-ensa.herokuapp.com/api/" , 
+     "endpoint" : "http://localhost:3003/api/" , 
      "stripeKey" : "pk_test_51KJf4lE5DRTBwjKugvBM3EEQ7uk5O0uZxVxOfB6VcBksplVnpfHJLpSWOv3sVfBuKy2KdjNCqhJPbN0oH1hiTiB600vuStDSWm"
  }
 

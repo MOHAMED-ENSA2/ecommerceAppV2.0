@@ -1,6 +1,6 @@
 .order--delivery_info{
     background-color: white;
-    /* height: 320px; */
+    margin-top: 3rem;
     width: 750px;
     padding: 1.1rem 1.5rem;
 }
@@ -69,11 +69,6 @@
     border-radius: 3px;
 }
 
-
-.summary--card_dim{
-    height: 250px;
-}
-
 /* final price */
 .final_price{
     margin-top: .8rem;
@@ -84,4 +79,15 @@
     margin-left: 55%;
     display: flex;
     justify-content: space-around;
+}
+
+@media screen and (max-width : 800px) {
+    .order--delivery_info{
+        width: 400px;
+    }
+    .delivery--info{
+        display: flex;
+        flex-direction: column;
+    }
+
 }

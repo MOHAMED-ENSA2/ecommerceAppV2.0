@@ -11,6 +11,7 @@ import Products from './Products'
 import Ordres from './Ordres'
 
 import "./Admin.css"
+import Back from '../../components/back/Back'
 
 function AdminPannel() {
     const [choice , setChoice] = useState("")
@@ -27,26 +28,29 @@ function AdminPannel() {
         return <Redirect to="/"/>
 
     return (
-        <div className='admin'>
-          <div className='admin--sidebar'>
-            <ul>
-                <li onClick={() => setChoice("Home")} className='admin-item'><i class="fas fa-home"></i>  <span>  Home </span> </li>
-                <li onClick={() => setChoice("Users")} className='admin-item'><i class="fas fa-user"></i> <span>  Users </span></li>
-                <li onClick={() => setChoice("Products")} className='admin-item'><i class="fas fa-home"></i> <span> Products  </span> </li>
-                <li onClick={() => setChoice("Ordres")} className='admin-item'><i class="fas fa-home"></i> <span>  Ordres </span> </li>
-                <li onClick={() => setChoice("Coupons")} className='admin-item'><i class="fas fa-comment-dots"></i> <span>  Coupons </span> </li>
-            </ul>    
-          </div> 
-          {
-           choice === "Products"
-           ? <Products/>
-           : choice === "Users" 
-           ? <Users/>
-           : choice === "Ordres"
-           ? <Ordres/>
-           : <Products/> 
-          }
-              
+        <div>
+            <Back/>
+            <div className='admin'>
+              <div className='admin--sidebar'>
+                <ul>
+                    <li onClick={() => setChoice("Home")} className='admin-item'><i class="fas fa-home"></i>  <span>  Home </span> </li>
+                    <li onClick={() => setChoice("Users")} className='admin-item'><i class="fas fa-user"></i> <span>  Users </span></li>
+                    <li onClick={() => setChoice("Products")} className='admin-item'><i class="fas fa-home"></i> <span> Products  </span> </li>
+                    <li onClick={() => setChoice("Ordres")} className='admin-item'><i class="fas fa-home"></i> <span>  Ordres </span> </li>
+                    <li onClick={() => setChoice("Coupons")} className='admin-item'><i class="fas fa-comment-dots"></i> <span>  Coupons </span> </li>
+                </ul>
+              </div>
+              {
+               choice === "Products"
+               ? <Products/>
+               : choice === "Users"
+               ? <Users/>
+               : choice === "Ordres"
+               ? <Ordres/>
+               : <Products/>
+              }
+            
+            </div>
         </div>
     )
 }

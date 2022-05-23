@@ -35,7 +35,10 @@ function DownNavBar() {
                                 categories.map(elm => { return (
                                     <Link to = {"/categorie/" + elm}>
                                         <li className="sc-item">
-                                            <span><i className="fas fa-carrot"></i> {elm}</span> <i className="fas fa-arrow-right"></i> 
+                                            <span>
+                                                <i className="fas fa-carrot"></i> {elm}
+                                            </span> 
+                                            <i className="fas fa-arrow-right"></i> 
                                         </li>
                                     </Link>
                                 )

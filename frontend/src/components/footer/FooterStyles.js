@@ -1,8 +1,9 @@
 import styled from 'styled-components';
    
+// background-color: #0E5AA7;
 export const Box = styled.div`
   padding: 3% 2.5%;
-  background-color: #0E5AA7;
+  background-color : #0E5AA7;
   bottom: 0;
   width: 100%;
   

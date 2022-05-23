@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     background-color: white;
-    height: 9vh;
+    height: 50px;
     width: 100%;
     padding-inline: 2.5%;
     
@@ -80,7 +80,7 @@
     width: 14.5rem;
     background: white;
     position: absolute;
-    top : 31vh ; 
+    top : 160px ; 
     left: -14.5rem;
     z-index: 1;
     transition: all .5s ease;

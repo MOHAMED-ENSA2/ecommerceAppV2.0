@@ -11,19 +11,13 @@ import store from './store/configureStore'
 Sentry.init({
   dsn: "https://ad2e0cd949a94f489c912905d2cac847@o1124811.ingest.sentry.io/6163094",
   integrations: [new Integrations.BrowserTracing()],
-
-  // Set tracesSampleRate to 1.0 to capture 100%
-  // of transactions for performance monitoring.
-  // We recommend adjusting this value in production
-  tracesSampleRate: 1.0,
 });
 
 ReactDOM.render(
   <Router>
       <Provider store = {store}>
        <App />
-    </Provider>
-
+      </Provider>
   </Router>,
   document.getElementById('root')
 );

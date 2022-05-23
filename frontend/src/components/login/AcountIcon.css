@@ -1,22 +1,40 @@
-
 .acount{
-     cursor: pointer;
-     color: white;
+    display: flex;
+    justify-content: flex-start;
+    white-space: nowrap;
 }
 
-.acount:hover{
+.AcountIcon{
+    /* width: 5.5rem; */
+    height: 2rem;
+    border: 1.3px solid white;
+    border-radius: 15px;
+    padding: .4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+}
+.AcountIcon_admin{
+    border-left: none;
+    border-radius: 0 15px  15px 0 ;
+}
+.AcountIcon_logout{
+    border-radius: 15px 0 0 15px ;
+}
+
+.AcountIcon:hover{
     color : rgb(14, 51, 104); 
+    border-color:  rgb(14, 51, 104); 
 }
 
 .acount-text{
+    margin-left: .7rem;
     font-size: .8rem;
-    margin-left: 5px;
+    font-weight: 700;
 }
 
-
-@media screen and (max-width : 600px ) {
-    .acount-text{
-        font-size: .6rem;
-    }
-    
+.acount-text_admin{
+    margin-left: 0;
 }

@@ -63,7 +63,6 @@ function ShoppingCart() {
                     {
                       cartItems.map(elm => {
                           return (
-                            <div>
                                 <CartItem
                                     id = {elm._id}
                                     image = {elm.image}
@@ -73,7 +72,6 @@ function ShoppingCart() {
                                     price = {elm.price}
                                     totalPrice = {elm.price * elm.quantity}
                                 />
-                            </div>
                           )
                       })
                     }
@@ -98,7 +96,7 @@ function ShoppingCart() {
             
             </div>
             <div className="order--recomondation" >
-                <h3>RECOMONDED PRODUCTS</h3>
+                <h3 style = {{textAlign : "center" , marginBottom : "1.7rem"}}>RECOMONDED PRODUCTS</h3>
                 <Carousel itemsToShow={window.visualViewport.width > 1024 ? 2 : 1}>
 
                     {

@@ -6,11 +6,10 @@ import "./Logo.css"
 function Logo() {
     return (
 
-    <div className="logo-container">
-        <Link to = "/">
-                <i class="logo fas fa-shipping-fast fa-2x"></i>
+        <Link className="logo-container" to = "/">
+                <i class="logo fas fa-shipping-fast  fa-lg"></i>
+                <span className='logo--text' >ECOM</span> 
         </Link>
-    </div>
     )
 }
 
