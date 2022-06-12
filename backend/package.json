@@ -3,18 +3,18 @@
   "version": "1.0.0",
   "engines": {
     "node": "16.8.0"
-   },
+  },
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll --verbose" , 
-    "start": "node server.js" ,
-    "heroku-postbuild" : "npm install  && npm install bcrypt && cd frontend && npm i && npm run build"
+    "start": "node server.js",
+    "test": "jest --watchAll --verbose"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "config": "^3.3.6",
     "cors": "^2.8.5",
     "express": "^4.17.2",
@@ -32,4 +32,3 @@
     "supertest": "^6.1.6"
   }
 }
-

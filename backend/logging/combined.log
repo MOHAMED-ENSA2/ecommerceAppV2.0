@@ -2379,3 +2379,5 @@
 {"level":"info","message":"connecting tomongodb://localhost:27017/ecom"}
 {"level":"info","message":"server listnening at port3003"}
 {"level":"info","message":"connecting tomongodb://localhost:27017/ecom"}
+{"level":"info","message":"server listnening at port3003"}
+{"level":"info","message":"connecting tomongodb://localhost:27017/ecom"}
